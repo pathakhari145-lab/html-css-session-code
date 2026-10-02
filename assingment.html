@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ASSINGMENT</title>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+
+        <form action="submit">
+            <fieldset>
+            <b> <label for="name">Name</label>
+                <input type="text" placeholder="Enter your name">&nbsp;&nbsp;
+
+                <label for="name">College</label>
+                <input type="text" disabled selected value="Nepathya College"><br><br>
+
+                <label for="email">Email</label>
+                <input type="email" placeholder="email">&nbsp;&nbsp;
+
+                <label for="pass">Password</label>
+                <input type="password" placeholder="Password"><br><br>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" placeholder="Enter your phone numb ">&nbsp;&nbsp;
+
+                <label>Date of birth</label>
+                <input type="datetime-local"><br><br>
+
+                </fieldset>
+
+                <fieldset>
+
+                <label for="sub">Favourite Programming Language</label><br></b>
+
+            <input type="radio" value="C" name="sub">C<br>
+
+            <input type="radio" value="C++" name="sub">C++<br>
+
+            <input type="radio" value="javascript" name="sub">Javascript<br><br>
+
+            </fieldset>
+
+            <fieldset>
+
+            <b><label for="gen">Select your gender</label><br></b>
+
+            <input type="radio" value="MAN" name="gen">Man<br>
+
+            <input type="radio" value="WOMEN" name="gen">Woman<br><br>
+
+            </fieldset>
+
+            <fieldset>
+
+            <b><label>Select course</label><br></b>
+            <select name="course">
+                <option value="0" disabled selected>Select course</option>
+                <option value="csit">csit</option>
+                <option value="bca">BCA</option>
+                <option value="bit">BIT</option>
+            </select><br><br>
+
+            </fieldset>
+
+            <fieldset>
+            <b>Upload your document</b> <input type="file"><br><br>
+
+            <b> <label>Message/Feedback/Bio/Caption</label><br></b>
+            <textarea placeholder="Enter message/feedback/Bio/Cation" rows="20" cols="70"></textarea><br><br>
+
+            </fieldset> 
+
+            <button type="submit">Register</button>
+        </form>
+
+</body>
+
+</html>
